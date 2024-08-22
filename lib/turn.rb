@@ -1,7 +1,7 @@
 class Turn
     attr_reader
 
-    def initialize()
-        
+    def initialize(turn)
+        @turn = turn
     end
 end
